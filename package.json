@@ -1,0 +1,21 @@
+{
+	"name": "p5-poc",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "webpack serve --mode development",
+		"prod": "webpack serve --mode production",
+		"build": "webpack --mode production"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"webpack": "^5.88.2",
+		"webpack-cli": "^5.1.4",
+		"webpack-dev-server": "^4.15.1"
+	},
+	"dependencies": {
+		"node-p5": "^1.0.4"
+	}
+}
